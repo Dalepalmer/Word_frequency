@@ -1,0 +1,13 @@
+body {
+  background-image: url("http://www.fubiz.net/wp-content/uploads/2013/07/Facebook-Fan-Counter-2.jpg");
+}
+h1 {
+  text-align: center;
+  color: blue;
+  font-size: 500%;
+}
+p {
+  text-align: center;
+  color: cyan;
+  font-size: 300%;
+}
