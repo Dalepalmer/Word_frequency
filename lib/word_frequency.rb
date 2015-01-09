@@ -1,7 +1,7 @@
 class String
   define_method(:word_freq) do |input|
     score = 0
-    word = self
+    word = self.downcase
     sentence = input.downcase.split()
     sentence.each() do |key|
       if key.==(word)

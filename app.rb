@@ -8,7 +8,7 @@ get('/freq_form') do
 end
 
 get('/word_output') do
-  @output = params.fetch('paragraph').word_freq(params.fetch('word'))
+  @output = params.fetch('word').word_freq(params.fetch('paragraph'))
   @word = params.fetch('word')
   @score = @output
   erb(:word_output)
